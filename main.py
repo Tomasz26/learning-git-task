@@ -10,3 +10,6 @@ print("Lista zakupów")
 for store, things in shopping_dict.items():
     capitalized_things = [item.capitalize() for item in things]
     print(f"Idę do {store.capitalize()}, kupuję tu następujące rzeczy: {capitalized_things}")
+    i += len(things)
+
+print(f"W sumie kupuję {i} produktów")

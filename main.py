@@ -17,3 +17,5 @@ print(f"W sumie kupuję {i} produktów")
 
 for i in range(0, 10):
     print("Mmmm, spam, spam")
+
+print("Serdecznie gorąco pozdrawiam mentora, życzę miłego niedzielnego wieczoru")

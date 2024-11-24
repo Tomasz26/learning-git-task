@@ -1,6 +1,7 @@
 shopping_dict = {
     "warzywniak": ['marchew', 'seler', 'rukola'],
-    "piekarnia": ['chleb', 'pączek', 'bułki']
+    "piekarnia": ['chleb', 'pączek', 'bułki'],
+    "miesny": ['szynka', 'kielbasa', 'schab']
 }
 
 i = 0
@@ -15,4 +16,4 @@ for store, things in shopping_dict.items():
 print(f"W sumie kupuję {i} produktów")
 
 for i in range(0, 10):
-    print("Mmmm, spam")
+    print("Mmmm, spam, spam")

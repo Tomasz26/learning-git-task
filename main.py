@@ -13,3 +13,6 @@ for store, things in shopping_dict.items():
     i += len(things)
 
 print(f"W sumie kupuję {i} produktów")
+
+for i in range(0, 10):
+    print("Mmmm, spam")
